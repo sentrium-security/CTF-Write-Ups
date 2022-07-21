@@ -80,7 +80,7 @@ Decoding the above reveals the following, with more base64.
 {"id": 18, "cmd": "d2hvYW1pIC9hbGw="}
 ```
 
-Once decoded, we see the actual command that was.
+Once decoded, we see what the actual command was.
 
 ```whoami /all```
 
