@@ -103,7 +103,7 @@ desktop-qv3nqlm\larry stevens S-1-5-21-2029278208-1899262506-2533989507-1000
 <REDACTED>
 ```
 
-Continuing through the capture, we also see another interesting piece of information. On one of the POST requests, we see aa 500 Internal Server Error which reveals some important info to us.
+Continuing through the capture, we also see another interesting piece of information. On one of the POST requests, we see a 500 Internal Server Error which reveals some important info to us.
 
 ```
 HTTP/1.1 500 INTERNAL SERVER ERROR
