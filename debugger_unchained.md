@@ -200,7 +200,7 @@ And finally the flag was retrieved.
 
 # Final Thoughts
 
-As much as I got frustrated by this challenge and I feel like completely over engineered the process, I really enjoyed this one deep down. Hopefully the tamper script will come in use again in future or someone else can utilise it as well.
+As much as I got frustrated by this challenge and I feel like I completely over engineered the process, I really enjoyed this one deep down. Hopefully the tamper script will come in use again in future or someone else can utilise it as well.
 
 
 James Drew
