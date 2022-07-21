@@ -2,9 +2,9 @@
 
 ## Debugger Unchained
 
-This was one of the web apps included in the HackTheBox Business CTF 'Dirty Money'. It was rated as easy and in the unexpected heat of the British summer I managed to turn this into a box that was hard...all we be explained.
+This was one of the web apps included in the HackTheBox Business CTF 'Dirty Money'. It was rated as easy and in the unexpected heat of the British summer I managed to turn this into a box that was hard...all will be explained.
 
-There's nothing particular new in this write up and I've read a few that are much more effective than my process, but there may be some new or at least different techniques that can be used by others.
+There's nothing particularly new in this write up and I've read a few that are much more elegant than my process, but there may be some new or at least different techniques that can be used by others.
 
 ## Challenge Description
 
@@ -52,7 +52,7 @@ From the c2.profile we can see a couple of interesting points.
 
 With this in mind, focus moved to the traffic capture. Reviewing the TCP streams, we can start to see intersting points here as well. 
 
-A GET request to the '/assets/jquery-3.6.0.slim.min.js' 
+A GET request to '/assets/jquery-3.6.0.slim.min.js' 
 
 ```
 GET /assets/jquery-3.6.0.slim.min.js HTTP/1.1
@@ -68,7 +68,7 @@ Sec-Fetch-Site: cross-site
 Cookie: __cflb=49f062b5-8b94-4fff-bb41-d504b148aa1b;
 ```
 
-Reading the response to this request, we see a 'task' variable included at the end of the jquery file, which contains some standout base64.
+Reading the response to this request, we see a 'task' variable included at the end of the jquery file contents, which contains some standout base64.
 
 ```
 task="eyJpZCI6IDE4LCAiY21kIjogImQyaHZZVzFwSUM5aGJHdz0ifQ==";
